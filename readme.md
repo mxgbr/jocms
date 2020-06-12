@@ -30,7 +30,7 @@ Version 0.8 - Beta
 - Intuitive interface for users with little software experience
 
 ### Features
-Check out the demo version at https://demo.jocms.net/jocms
+Check out the demo version at http://demo.jocms.net/jocms
 
 - WYSIWYG editor
 - Special elements: Predefined elements, repeated elements
