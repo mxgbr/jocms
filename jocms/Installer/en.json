@@ -1,0 +1,11 @@
+{
+  "I_ACC":"Create an account",
+  "I_ACC_TEXT":"Now create a new administrator account. It enables you to change the settings and to add other users.",
+  "I_BACK":"Back",
+  "I_ERR_PHP":"jocms is not compatible with your PHP version. Minimum 5.5 is required.",
+  "I_ERR_SQL":"No SQLite3 available.",
+  "I_NEXT":"Next",
+  "I_OK":"That's it!",
+  "I_OK_TEXT":"<p>jocms is now installed.</p><ul><li>Please <b>delete</b> the folder <code>/jocms/Installer</code> now.</li><li>Now you can log in and start.</li><li>If you like jocms, please link back to <code>jocms.rusciori.org</code> ;)</li></ul>",
+  "I_WELC_TEXT":"<p>This installer walks you through the installation of jocms.</p><ul><li>Please <b>back up your files</b> before you continue, so that nothing can be damaged!</li><li>jocms is still in beta state, so there might be some errors and it is not complete yet. I would be very happy if you gave me some feedback.</li></ul>"
+}

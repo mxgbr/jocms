@@ -1,0 +1,14 @@
+# ignore everything apart from jocms files
+/*
+!/jocms/
+!/license.md
+!/readme.md
+!/.gitignore
+
+# ignore database
+/jocms/core/database/database.db
+
+# ignore upload folder content
+/jocms/uploads/*
+!/jocms/uploads/.htaccess
+!/jocms/uploads/index.php

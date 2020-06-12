@@ -1,0 +1,7 @@
+Deny from all
+<FilesMatch "^taskvalid\.php$">
+Allow from all
+</FilesMatch>
+<FilesMatch "^lang\.php$">
+Allow from all
+</FilesMatch>

@@ -1,0 +1,814 @@
+.mce-tooltip {
+position: fixed !important;
+}
+.mce-panel.mce-floatpanel.mce-menu {
+position: fixed !important;
+}
+
+.mce-widget.mce-tooltip {
+    display: none !important;
+}
+.jo_label,
+.jo_label div,
+.jo_label img,
+.jo_label a{
+    animation : none !important;
+    animation-delay : 0s !important;
+    animation-direction : normal !important;
+    animation-duration : 0s !important;
+    animation-fill-mode : none !important;
+    animation-iteration-count : 1 !important;
+    animation-name : none !important;
+    animation-play-state : running !important;
+    animation-timing-function : ease !important;
+    backface-visibility : visible !important;
+    background : 0 !important;
+    background-attachment : scroll !important;
+    background-clip : border-box !important;
+    background-color : transparent !important;
+    background-image : none !important;
+    background-origin : padding-box !important;
+    background-position : 0 0 !important;
+    background-position-x : 0 !important;
+    background-position-y : 0 !important;
+    background-repeat : repeat !important;
+    background-size : auto auto !important;
+    border : 0 !important;
+    border-style : none !important;
+    border-width : medium !important;
+    border-color : inherit !important;
+    border-bottom : 0 !important;
+    border-bottom-color : inherit !important;
+    border-bottom-left-radius : 0 !important;
+    border-bottom-right-radius : 0 !important;
+    border-bottom-style : none !important;
+    border-bottom-width : medium !important;
+    border-collapse : separate !important;
+    border-image : none !important;
+    border-left : 0 !important;
+    border-left-color : inherit !important;
+    border-left-style : none !important;
+    border-left-width : medium !important;
+    border-radius : 0 !important;
+    border-right : 0 !important;
+    border-right-color : inherit !important;
+    border-right-style : none !important;
+    border-right-width : medium !important;
+    border-spacing : 0 !important;
+    border-top : 0 !important;
+    border-top-color : inherit !important;
+    border-top-left-radius : 0 !important;
+    border-top-right-radius : 0 !important;
+    border-top-style : none !important;
+    border-top-width : medium !important;
+    bottom : auto !important;
+    box-shadow : none !important;
+    box-sizing : content-box !important;
+    caption-side : top !important;
+    clear : none !important;
+    clip : auto !important;
+    color : inherit !important;
+    columns : auto !important;
+    column-count : auto !important;
+    column-fill : balance !important;
+    column-gap : normal !important;
+    column-rule : medium none currentColor !important;
+    column-rule-color : currentColor !important;
+    column-rule-style : none !important;
+    column-rule-width : medium !important;
+    column-span : none !important;
+    column-width : auto !important;
+    content : normal !important;
+    counter-increment : none !important;
+    counter-reset : none !important;
+    cursor : auto !important;
+    direction : ltr !important;
+    display : inline !important;
+    empty-cells : show !important;
+    float : none !important;
+    font : normal !important;
+    font-family : Arial !important;    /* inherit */
+    font-size : 17px !important;       /* medium */
+    font-style : normal !important;
+    font-variant : normal !important;
+    font-weight : normal !important;
+    height : auto !important;
+    hyphens : none !important;
+    left : auto !important;
+    letter-spacing : normal !important;
+    line-height : normal !important;
+    list-style : none !important;
+    list-style-image : none !important;
+    list-style-position : outside !important;
+    list-style-type : disc !important;
+    margin : 0 !important;
+    margin-bottom : 0 !important;
+    margin-left : 0 !important;
+    margin-right : 0 !important;
+    margin-top : 0 !important;
+    max-height : none !important;
+    max-width : none !important;
+    min-height : 0 !important;
+    min-width : 0 !important;
+    opacity : 1 !important;
+    orphans : 2 !important;
+    outline : 0 !important;
+    outline-color : invert !important;
+    outline-style : none !important;
+    outline-width : medium !important;
+    overflow : visible !important;
+    overflow-x : visible !important;
+    overflow-y : visible !important;
+    padding : 0 !important;
+    padding-bottom : 0 !important;
+    padding-left : 0 !important;
+    padding-right : 0 !important;
+    padding-top : 0 !important;
+    page-break-after : auto !important;
+    page-break-before : auto !important;
+    page-break-inside : auto !important;
+    perspective : none !important;
+    perspective-origin : 50% 50% !important;
+    position : static !important;
+    quotes : '\201C' '\201D' '\2018' '\2019' !important;
+    right : auto !important;
+    tab-size : 8 !important;
+    table-layout : auto !important;
+    text-align : inherit !important;
+    text-align-last : auto !important;
+    text-decoration : none !important;
+    text-decoration-color : inherit !important;
+    text-decoration-line : none !important;
+    text-decoration-style : solid !important;
+    text-indent : 0 !important;
+    text-shadow : none !important;
+    text-transform : none !important;
+    top : auto !important;
+    transform : none !important;
+    transform-style : flat !important;
+    transition : none !important;
+    transition-delay : 0s !important;
+    transition-duration : 0s !important;
+    transition-property : none !important;
+    transition-timing-function : ease !important;
+    unicode-bidi : normal !important;
+    vertical-align : baseline !important;
+    visibility : visible !important;
+    white-space : normal !important;
+    widows : 2 !important;
+    width : auto !important;
+    word-spacing : normal !important;
+    z-index : auto !important;
+}
+div#jocms_navigation,
+#jocms_navigation div,
+#jocms_navigation img,
+#jocms_navigation a,
+#jocms_navigation h1,
+#jocms_navigation fieldset,
+#jocms_navigation legend,
+#jocms_navigation form,
+#jocms_navigation label,
+#jocms_navigation input,
+div#jocms_popup,
+div#jocms_functions,
+#jocms_functions div,
+#jocms_functions img,
+div#jocms_noticebar,
+.jo_label,
+.jo_label div,
+.jo_label a,
+.jo_label img{
+    animation : none;
+    animation-delay : 0s;
+    animation-direction : normal;
+    animation-duration : 0s;
+    animation-fill-mode : none;
+    animation-iteration-count : 1;
+    animation-name : none;
+    animation-play-state : running;
+    animation-timing-function : ease;
+    backface-visibility : visible;
+    background : 0;
+    background-attachment : scroll;
+    background-clip : border-box;
+    background-color : transparent;
+    background-image : none;
+    background-origin : padding-box;
+    background-position : 0 0;
+    background-position-x : 0;
+    background-position-y : 0;
+    background-repeat : repeat;
+    background-size : auto auto;
+    border : 0;
+    border-style : none;
+    border-width : medium;
+    border-color : inherit;
+    border-bottom : 0;
+    border-bottom-color : inherit;
+    border-bottom-left-radius : 0;
+    border-bottom-right-radius : 0;
+    border-bottom-style : none;
+    border-bottom-width : medium;
+    border-collapse : separate;
+    border-image : none;
+    border-left : 0;
+    border-left-color : inherit;
+    border-left-style : none;
+    border-left-width : medium;
+    border-radius : 0;
+    border-right : 0;
+    border-right-color : inherit;
+    border-right-style : none;
+    border-right-width : medium;
+    border-spacing : 0;
+    border-top : 0;
+    border-top-color : inherit;
+    border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-top-style : none;
+    border-top-width : medium;
+    bottom : auto;
+    box-shadow : none;
+    box-sizing : content-box;
+    caption-side : top;
+    clear : none;
+    clip : auto;
+    color : inherit;
+    columns : auto;
+    column-count : auto;
+    column-fill : balance;
+    column-gap : normal;
+    column-rule : medium none currentColor;
+    column-rule-color : currentColor;
+    column-rule-style : none;
+    column-rule-width : medium;
+    column-span : none;
+    column-width : auto;
+    content : normal;
+    counter-increment : none;
+    counter-reset : none;
+    cursor : auto;
+    direction : ltr;
+    display : inline;
+    empty-cells : show;
+    float : none;
+    font : normal;
+    font-family : Arial;    /* inherit */
+    font-size : 17px;       /* medium */
+    font-style : normal;
+    font-variant : normal;
+    font-weight : normal;
+    height : auto;
+    hyphens : none;
+    left : auto;
+    letter-spacing : normal;
+    line-height : normal;
+    list-style : none;
+    list-style-image : none;
+    list-style-position : outside;
+    list-style-type : disc;
+    margin : 0;
+    margin-bottom : 0;
+    margin-left : 0;
+    margin-right : 0;
+    margin-top : 0;
+    max-height : none;
+    max-width : none;
+    min-height : 0;
+    min-width : 0;
+    opacity : 1;
+    orphans : 2;
+    outline : 0;
+    outline-color : invert;
+    outline-style : none;
+    outline-width : medium;
+    overflow : visible;
+    overflow-x : visible;
+    overflow-y : visible;
+    padding : 0;
+    padding-bottom : 0;
+    padding-left : 0;
+    padding-right : 0;
+    padding-top : 0;
+    page-break-after : auto;
+    page-break-before : auto;
+    page-break-inside : auto;
+    perspective : none;
+    perspective-origin : 50% 50%;
+    position : static;
+    quotes : '\201C' '\201D' '\2018' '\2019';
+    right : auto;
+    tab-size : 8;
+    table-layout : auto;
+    text-align : inherit;
+    text-align-last : auto;
+    text-decoration : none;
+    text-decoration-color : inherit;
+    text-decoration-line : none;
+    text-decoration-style : solid;
+    text-indent : 0;
+    text-shadow : none;
+    text-transform : none;
+    top : auto;
+    transform : none;
+    transform-style : flat;
+    transition : none;
+    transition-delay : 0s;
+    transition-duration : 0s;
+    transition-property : none;
+    transition-timing-function : ease;
+    unicode-bidi : normal;
+    vertical-align : baseline;
+    visibility : visible;
+    white-space : normal;
+    widows : 2;
+    width : auto;
+    word-spacing : normal;
+    z-index : 80000;
+}
+div#jocms_navigation *:after,
+div#jocms_popup *:after,
+div#jocms_functions *:after,
+div#jocms_noticebar *:after,
+div#jocms_navigation:after,
+div#jocms_popup:after,
+div#jocms_functions:after,
+div#jocms_noticebar:after,
+div#jocms_navigation *:before,
+div#jocms_popup *:before,
+div#jocms_noticebar *:before,
+div#jocms_navigation:before,
+div#jocms_popup:before,
+div#jocms_functions:before,
+div#jocms_noticebar:before{
+    content: none;
+}
+
+div#jocms_navigation,
+div#jocms_popup,
+div#jocms_functions,
+div#jocms_noticebar{
+    position : fixed !important;
+    color : white;
+}
+
+#jocms_navigation div,
+#jocms_functions div,
+.jo_label div {
+  display: block;
+}
+
+/*-------------------------------------------------------------------- general settings */
+/*general defs */
+div#jocms_functions,
+div#jocms_navigation #jocms_popup,
+div#jocms_noticebar{
+    box-shadow:2px 5px 14px 3px rgba(0,0,0,0.4);
+    border-radius: 2px;
+    overflow: hidden;
+}
+/*forms*/
+div#jocms_navigation .jo_form,
+.jo_form,
+.jo_form input {
+  display: block;
+  position: relative;
+  line-height: 20px;
+}
+div#jocms_navigation .jo_form,
+.jo_form {
+  padding-bottom: 70px;
+}
+
+div#jocms_navigation .jo_form legend,
+.jo_form legend{
+  display: block;
+}
+
+
+div#jocms_navigation .jo_form fieldset,
+.jo_form fieldset{
+  display: block;
+  margin: 20px 0 20px 0;
+}
+
+div#jocms_navigation .jo_form input[type="submit"],
+.jo_form input[type="submit"],
+.jo_btn{
+    display: inline-block;
+    float: right;
+    line-height: 30px;
+
+    margin: 20px 0 0px 10px;
+    padding: 5px 15px 5px 15px;
+
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+div#jocms_navigation .jo_form input[type="submit"] img,
+.jo_form input[type="submit"] img,
+.jo_btn img {
+    vertical-align: middle;
+}
+div#jocms_navigation .jo_form input[type="submit"],
+.jo_form input[type="submit"],
+.jo_btn_sub {
+    background-color: #BF0040;
+}
+.jo_btn:not([type="submit"]),
+.jo_form input.jo_btn_gray {
+    background-color: #494949;
+    float: none;
+}
+form .jo_btn:not([type="submit"]){
+  float: right;
+}
+div#jocms_navigation .jo_form input[type="submit"]:hover,
+.jo_form input[type="submit"]:hover,
+.jo_btn:hover {
+    opacity: 0.6;
+}
+
+div#jocms_navigation .jo_form input:not([type="submit"]):not([type="radio"]),
+.jo_form input:not([type="submit"]):not([type="radio"]){
+    border: none;
+    box-sizing: border-box;
+    border-bottom: #494949 solid 1px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+    color: #494949;
+    padding: 7px;
+    height: 36px;
+    width: 100%;
+    max-width: 600px;
+}
+div#jocms_navigation .jo_form input:not([type="submit"]):not([type="radio"]):focus{
+    border-bottom: #BF0040 solid 1px;
+}
+div#jocms_navigation .jo_form fieldset.jocms_form_image,
+.jo_form fieldset.jocms_form_image {
+    max-height: 500px;
+    overflow: hidden;
+    overflow-y: auto;
+    margin-right: -20px;
+}
+div#jocms_navigation .jo_form .jocms_form_image>div,
+.jo_form .jocms_form_image>div {
+    display: inline-block;
+    text-align: center;
+    height: 125px;
+    width: 125px;
+    background-color: #494949;
+    overflow: hidden;
+    margin: 3px;
+}
+div#jocms_navigation .jo_form .jocms_form_image label>img,
+.jo_form .jocms_form_image label>img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+
+}
+div#jocms_navigation .jo_form .jocms_form_image input[type="radio"],
+.jo_form .jocms_form_image input[type="radio"]{
+    opacity: 0;
+    display: none;
+    width: 0px;
+    height: 0px;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+div#jocms_navigation .jo_form .jocms_form_image label,
+.jo_form .jocms_form_image label{
+    background-color: #494949;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    line-height: 127px;
+}
+#jocms_navigation .jo_form .jocms_form_image label:hover,
+.jo_form .jocms_form_image label:hover{
+    background-color: #BF0040;
+}
+#jocms_navigation .jo_form .jocms_form_image input[type="radio"]:checked ~ label,
+.jo_form .jocms_form_image input[type="radio"]:checked ~ label {
+    background-color: #BF0040;
+}
+#jocms_navigation .jo_form .jocms_form_image input[type="radio"]:checked ~ label  img,
+.jo_form .jocms_form_image input[type="radio"]:checked ~ label  img{
+    opacity: 0.6;
+}
+
+div#jocms_navigation .jo_folder,
+.jo_folder {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #494949;
+    background-image: url(/jocms/core/style/icons/arrowrightgray.svg);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: 0 center, 15px center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+div#jocms_navigation .jo_folder:not(.jo_folder_active) + *,
+.jo_folder:not(.jo_folder_active) + *{
+  display: none;
+}
+div#jocms_navigation .jo_folder_active,
+.jo_folder_active {
+    background-image: url(/jocms/core/style/icons/arrowdown.svg);
+}
+
+/*-------------------------------------------------------------------- Labels */
+.jo_label {
+    position: absolute !important;
+    z-index: 49999 !important;
+    top: 0 !important;
+    right: 0 !important;
+    background-color: #BF0040 !important;
+    padding: 3px !important;
+    height: 22px !important;
+}
+.jo_label_large {
+  top: 0px !important;
+  left: 0 !important;
+  right: auto !important;
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.1) -6px -3px 8px -5px, rgba(0, 0, 0, 0.16) 8px 8px 8px -5px !important;
+  border-radius: 2px !important;
+  border: #666 solid 1px !important;
+}
+.jo_label_large:hover {
+  background-color: #ccc !important;
+}
+.jo_label_small {
+  padding-left: 22px !important;
+  width: 3px !important;
+  background-image: url(/jocms/core/style/icons/arrowrightwhite.svg) !important;
+  color: white !important;
+  overflow: hidden !important;
+  background-size: 14px !important;
+  background-repeat: no-repeat !important;
+  background-position: 5px center !important;
+  white-space: nowrap !important;
+  border-radius: 22px !important;
+}
+.jo_label_small:hover {
+    width: auto !important;
+}
+.jo_label img {
+    display: inline-block !important;
+    height: 16px !important;
+    vertical-align: middle !important;
+    margin: 3px !important;
+    cursor: pointer !important;
+}
+.jo_label a{
+    display: inline-block !important;
+}
+.jo_label .jo_handle img{
+  cursor: move !important;
+}
+.mce-content-body, .mce-content-body [data-jo-content="editable"] {
+    outline: #BF0040 1px dashed;
+}
+*[data-jo-element='mask'] {
+    outline: rgba(0,0,0,0.2) 2px solid;
+    position: relative;
+}
+*[data-jo-element='mask']::after{
+    border-style: solid;
+    display: block;
+    top: -2px;
+    right: -2px;
+    border-color: transparent rgba(0,0,0,0.2) transparent transparent;
+    border-width: 0px 18px 18px 0px;
+    content: "";
+    position: absolute;
+}
+@media only screen and (min-width: 451px), only screen and (min-width: 451px){
+  [data-jo-content="repeated"] {
+    padding-top: 30px !important;
+  }
+}
+@media only screen and (max-width: 450px), only screen and (max-height: 450px){
+  .jo_label {
+      display: none !important;
+  }
+}
+
+/*-------------------------------------------------------------------- Navigation Container */
+
+div#jocms_navigation {
+    top: 0;
+    left: 0;
+    width: 100%;
+    -ms-user-select: None;
+    -moz-user-select: None;
+    -webkit-user-select: None;
+    user-select: None;
+}
+@keyframes jo_load {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.15);}
+}
+div#jocms_functions .jo_load,
+.jo_load {
+  animation-name: jo_load;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+/* ------------------------------------------------------------------- Noticebar */
+
+div#jocms_noticebar {
+    display: none;
+    right: 20px;
+    top: 20px;
+
+    box-sizing: border-box;
+    padding: 5px;
+    width: 300px;
+    max-height: 70vh;
+    overflow-y: auto;
+
+    background-color: #BF0040;
+    transition: margin-top ease-out 0.7s, height ease-out 0.7s;
+}
+div#jocms_noticebar div{
+    display: none;
+    margin-bottom: 20px;
+}
+img#jocms_close{
+    max-height: 20px;
+    float: right;
+    cursor: pointer;
+}
+img#jocms_close:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 450px), only screen and (max-height: 450px) {
+  div#jocms_noticebar {
+      display: none;
+      right: 10px;
+      top: 10px;
+      left: 10px;
+
+      box-sizing: border-box;
+      padding: 5px;
+      width: auto;
+      max-height: 70vh;
+      overflow-y: auto;
+
+      background-color: #BF0040;
+      transition: margin-top ease-out 0.7s, height ease-out 0.7s;
+  }
+}
+
+/* ------------------------------------------------------------------- Toolbar */
+
+div#jocms_functions {
+    top: 40px;
+    width: 161px;
+    left: 40px;
+    background-color: rgba(255,255,255,1);
+    z-index: 50000;
+}
+div#jocms_functions #jocms_buttons {
+  margin: 5px;
+}
+div#jocms_functions #jocms_buttons .mce-btn{
+  display: inline-block;
+  position: relative;
+  margin: 1px;
+  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+  border-radius: 2px;
+}
+div#jocms_functions #jocms_buttons .mce-btn:hover,
+div#jocms_functions #jocms_buttons .mce-active,
+#jocms_functions #jocms_functions_submit div:hover{
+  background-color: silver;
+}
+#jocms_functions .jo_panel_drag {
+    border: 0;
+    display: block;
+    background-color: #BF0040;
+    cursor: move;
+    height: 15px;
+    width: 100%;
+    background-image: url(/jocms/core/style/icons/jocms_drag.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 10px;
+}
+#jocms_functions #jocms_functions_submit {
+    display: flex;
+    margin: 7px 5px 7px 5px;
+    height: 33px;
+}
+#jocms_functions #jocms_functions_submit div {
+    border-radius: 2px;
+    padding: 4px 8px 4px 8px;
+    flex: 1;
+    cursor: pointer;
+    color: #BF0040;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+    vertical-align: middle;
+    position: relative;
+}
+#jocms_functions #jocms_functions_submit img {
+    cursor: pointer;
+    max-height: 100%;
+    max-width: 100%;
+}
+#jocms_functions #jocms_functions_submit #jocms_functions_submit_cancel {
+    flex: 0 0 25px;
+}
+
+@media only screen and (max-width: 450px), only screen and (max-height: 450px){
+  div#jocms_functions {
+      top: auto;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: auto;
+      background-color: rgba(255,255,255,1);
+      z-index: 50000;
+      border-radius: 0;
+      overflow-x: auto;
+      white-space: nowrap;
+  }
+  div#jocms_functions div{
+      white-space: nowrap;
+  }
+  #jocms_functions>button:first-child {
+      display: none;
+  }
+  #jocms_functions #jocms_functions_submit {
+      display: inline-block;
+  }
+  #jocms_functions #jocms_functions_submit div {
+      display: inline-block;
+      flex: none;
+      max-height: 33px;
+  }
+  #jocms_functions #jocms_functions_submit #jocms_functions_submit_cancel {
+      width: 25px;
+  }
+  #jocms_functions #jocms_buttons {
+    display: inline-block;
+  }
+  #jocms_buttons div.mce-stack-layout-item {
+    display: inline-block;
+  }
+}
+
+/* ------------------------------------------------------------------- Settings window */
+div#jocms_window_wrapper {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(60,60,60,0.5);
+    z-index: 80001;
+}
+div#jocms_navigation #jocms_popup{
+    display: none;
+    top: 40px;
+    left: 50%;
+    margin-left: -220px;
+    width: 400px;
+    padding: 20px;
+    color: black;
+    background-color: white;
+    z-index: 80001;
+}
+
+div#jocms_navigation #jocms_closepopup{
+    height: 25px;
+    display: block;
+    float: right;
+}
+div#jocms_navigation #jocms_closepopup img{
+    height: 100%;
+}

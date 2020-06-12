@@ -1,0 +1,13 @@
+# File: uploads/.htaccess
+ 
+# This should prevent ALL files being executed/interpreted/handled.
+SetHandler none
+SetHandler default-handler
+ 
+# Disables the execution of cgi-files
+Options -ExecCGI
+ 
+# Disables the php engine
+<IfModule mod_php5.c>
+ php_flag engine off
+</IfModule>

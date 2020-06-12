@@ -1,0 +1,32 @@
+html body .jo_target{
+  box-shadow: 5px 5px 0 0 silver inset, -5px -5px 0 0 silver inset, 6px 6px 0 0 white inset, -6px -6px 0 0 white inset !important;
+}
+html body .jo_selected, html body .jo_selected[data-cmsid] {
+  box-shadow: 2px 2px 0 0 #BF0040 inset, -2px -2px 0 0 #BF0040 inset, 3px 3px 0 0 white inset, -3px -3px 0 0 white inset !important;
+}
+
+html body .jo_selected[data-jo-content="repeated"][data-cmsid]{
+  box-shadow: 2px 2px 0 0 #3887B1 inset, -2px -2px 0 0 #3887B1 inset, 3px 3px 0 0 white inset, -3px -3px 0 0 white inset !important;
+}
+
+html body .jo_selected {
+  cursor: copy !important;
+}
+html body *:not(.jo_selected)[data-cmsid]{
+  cursor: pointer !important;
+}
+html body .jo_selected [data-cmsid]{
+  cursor: copy !important;
+}
+
+html body .jo_selected *{
+  opacity: 0.5 !important;
+}
+
+html body *:not(*[data-cmsid], div#jocms_navigation){
+  cursor: not-allowed !important;
+}
+div#jocms_buttons label{
+  font-size: 16px;
+  color: #A0A0A0;
+}

@@ -1,0 +1,290 @@
+* {
+    font-family: Arial;
+    font-size: 17px;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: #BF0040;
+    font-size: 20px;
+}
+textarea, .CodeMirror {
+    width: 100%;
+    height: 80vh;
+}
+form {
+  margin: 0;
+}
+table, fieldset {
+  border: 0;
+  padding: 0;
+}
+td:first-child {
+  padding-right: 50px;
+}
+
+
+/*-------------------------------------------------------------------- general settings */
+
+div#navigation #nav_container,
+div#buttons div{
+  box-shadow:2px 5px 14px 3px rgba(0,0,0,0.4);
+}
+
+
+#menu {
+    margin-left: 44px;
+}
+#menu>div {
+    margin: 30px;
+    max-width: 1200px;
+}
+#navigation {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 45px;
+    background-color: white;
+    transition: width cubic-bezier(0.4, 0.0, 0.6, 1) 0.3s;
+    box-sizing: border-box;
+
+}
+#navigation #nav_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 100%;
+    overflow: hidden;
+}
+#sidebar {
+    display: flex;
+    align-items: center;
+    flex: 0 0 45px;
+    background-color: #BF0040;
+    box-sizing: border-box;
+}
+#sidebar div {
+    width: 100%;
+}
+#sidebar div a{
+    padding: 12px 7px 12px 7px;
+    display: block;
+    position: relative;
+    height: 31px;
+}
+#sidebar div a:hover {
+     background-color: #494949;
+}
+#sidebar div #active {
+    background-color: #494949;
+}
+#sidebar div a img {
+    width: 100%;
+    height: auto;
+}
+#explorer {
+    position: relative;
+    flex: 0 0 305px;
+    overflow: hidden;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+#explorer>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 16px;
+    display: none;
+}
+#explorer a:hover{
+    background-color: silver;
+}
+#file_explorer ul, #file_explorer li,  #options_explorer ul,  #options_explorer li {
+    margin: 0;
+    padding: 0;
+}
+#file_explorer a:not(.jo_folder),  #options_explorer a			{
+    display: block;
+		color: #BF0040;
+		text-decoration: none;
+		cursor: pointer;
+    background-image: url(/jocms/core/style/icons/file.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    padding-left: 20px;
+
+				}
+#file_explorer li, #options_explorer li {
+    list-style: none;
+    position: relative;
+    margin-top: 1px;
+
+}
+#file_explorer a {
+    pointer-events: inherit;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+#file_explorer ul, .jo_folder {
+    padding: 7px 7px 7px 35px;
+}
+#file_explorer>ul,  #options_explorer ul {
+    padding-left: 0;
+}
+#file_explorer .jocms_file a{
+    margin-left: 0;
+}
+#file_explorer .jo_folder {
+    background-image: url(/jocms/core/style/icons/arrowrightgray.svg), url(/jocms/core/style/icons/folder.svg);
+    background-size: 10px, 16px;
+}
+#file_explorer .jo_folder_active {
+    background-image: url(/jocms/core/style/icons/arrowdown.svg), url(/jocms/core/style/icons/folder.svg);
+}
+#file_explorer .jo_folder_inactive {
+    opacity: 0.65;
+    pointer-events: none;
+    background-image: url(/jocms/core/style/icons/folder.svg);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 15px center;
+}
+#buttons {
+    position: absolute;
+    right: -65px;
+    top: 40px;
+}
+#buttons div{
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #BF0040;
+    border-radius: 50px;
+    margin: 15px 5px 0 5px;
+}
+#buttons div:before{
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+#buttons div img{
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+#buttons .explorer_close{
+    background-color: #494949;
+}
+#buttons div:hover{
+    background-color: #494949;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.settings {
+  box-shadow: rgba(0, 0, 0, 0.1) -6px -3px 8px -5px, rgba(0, 0, 0, 0.16) 8px 8px 8px -5px;
+  border-radius: 2px;
+  border: #ededed solid 1px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.column_container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: flex-start;
+}
+.column_container>div:first-child {
+    flex: 0 0 200px;
+    margin-right: 20px;
+}
+.column_container>div:nth-child(2) {
+    flex: 1 1 0;
+    padding: 20px;
+}
+.mask_list a{
+    display: block;
+    padding: 5px 15px 5px 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.mask_list .jo_btn {
+    margin: 0;
+}
+.mask_list .jo_btn img {
+    height: 20px;
+}
+.mask_set table {
+    width: 100%;
+    table-layout:fixed;
+}
+.mask_set table td:first-child{
+    width: 100px;
+}
+.mask_set .CodeMirror {
+    height: 400px;
+    text-align: left;
+
+}
+
+.mask_set #delete{
+    display: none;
+}
+.list_active, .mask_list a:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+@media only screen and (max-width: 450px), only screen and (max-height: 450px){
+  #menu {
+      margin-left: 0px;
+  }
+  #navigation {
+      width: 0px;
+      margin-left: -59px;
+  }
+  #explorer {
+      margin-left: 14px;
+  }
+  #buttons {
+      position: fixed;
+      top: auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+      bottom: 20px;
+  }
+  #buttons div {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      padding: 20px;
+  }
+  div#explorer_more {
+    display: none;
+  }
+  #file_explorer>ul,  #options_explorer ul {
+      margin-bottom: 100px;
+  }
+}
+
+.CodeMirror {
+  border: black solid 1px;
+}

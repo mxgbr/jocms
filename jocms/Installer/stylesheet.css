@@ -1,0 +1,88 @@
+body{
+            background-color: #BF0040;
+        }
+        #logo{
+            float: right;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: arial;
+            color: #494949;
+
+        }
+        #logo span{
+            color: #BF0040;
+        }
+        #logo img {
+            width: 100px;
+        }
+        input, form{
+            display: block;
+            width: 100%;
+            font-size: 18px;
+            font-family: arial;
+        }
+        input[type=email],input[type=password],input[type=text]{
+            border: none;
+            border-bottom: #494949 solid 1px;
+            margin-top: 30px;
+            color: #494949;
+            padding: 7px;
+            transition: 0.5s ease-out;
+            max-width: 400px;
+        }
+        input[type=email]:focus,input[type=password]:focus,input[type=text]:focus{
+            border-bottom: #BF0040 solid 1px;
+            transition: 0.5s ease-out;
+        }
+form {
+    font-family: Arial;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0px auto;
+    min-width: 350px;
+    max-width: 800px;
+}
+header {
+    margin-bottom: 30px;
+    color: white;
+    text-align: right;
+}
+section {
+    background-color: white;
+    padding: 5%;
+    border-radius: 2px;
+}
+footer {
+    margin-top: 30px;
+}
+footer a, footer input[type=submit] {
+    display: block;
+    width: 140px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+    border: 0;
+    float: right;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+footer a:hover, footer input[type=submit]:hover{
+    background-color: white;
+    color: #494949;
+}
+footer a {
+    background-color: #BF0040;
+    color: #494949;
+}
+footer input[type=submit]{
+    background-color: #494949;
+    color: white;
+}
+#error {
+    color: red;
+}
