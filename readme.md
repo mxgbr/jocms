@@ -9,6 +9,7 @@ Find out more at https://jocms.net
 
 ### Status
 Version 0.8 - Beta
+This is a project I am doing in my spare time (a limited resource as you surely know). As I still think this might be useful for one or the other user out there, I invite you to join developing it further here on github.
 
 ### Requirements
 - PHP > 5.5
