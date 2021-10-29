@@ -9,7 +9,7 @@ Find out more at https://jocms.net
 
 ### Status
 Version 0.8 - Beta
-This is a project I am doing in my spare time (a limited resource as you surely know). As I still think this might be useful for one or the other user out there, I invite you to join developing it further here on github.
+This is a project I used to develop on the side, but had to put on hold due to lack of time. I think this might still be useful for one or the other user out there, I invite you to join developing it further here on github.
 
 ### Requirements
 - PHP > 5.5
@@ -40,11 +40,4 @@ Check out the demo version at http://demo.jocms.net/jocms
 - Backup
 - Image upload
 - User management and settings
-- 9 languages available
-
-### Contribute
-Contribution is greatly appreciated! You can help:
-- Report (or fix) bugs
-- Translate jocms into your language
-- Give Feedback
-- Donate
+- 9 languages availabl
