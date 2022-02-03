@@ -253,10 +253,18 @@ function jo_history_reset($id){
 function jo_set_mask($id, $name, $type, $code){
     $handle = jocms_db_link();
     if($id != 0){
-        $return = $handle->exec("UPDATE masks SET name='".$name."', code='".$code."' WHERE id='".$id."'");
+        $stmt = $handle->prepare("UPDATE masks SET name=:name, code=:code WHERE id=:id");
+        $stmt->bindValue(':name', $name, SQLITE3_TEXT);
+        $stmt->bindValue(':code', $code, SQLITE3_TEXT);
+        $stmt->bindValue(':id', $id, SQLITE3_INTEGER);
+        $return = $stmt->execute();
         $return = $id;
     }else{
-        $return = $handle->exec("INSERT INTO masks(name,type,code) VALUES ('".$handle->escapeString($name)."','".$handle->escapeString($type)."','".$handle->escapeString($code)."')");
+        $stmt = $handle->prepare("INSERT INTO masks(name,type,code) VALUES (:name,:type,:code)");
+        $stmt->bindValue(':name', $name, SQLITE3_TEXT);
+        $stmt->bindValue(':type', $type, SQLITE3_TEXT);
+        $stmt->bindValue(':code', $code, SQLITE3_TEXT);
+        $return = $stmt->execute();
         $return = $handle->lastInsertRowid();
     }
     return $return;
@@ -268,14 +276,15 @@ function jo_set_mask($id, $name, $type, $code){
 function jo_get_masks($id){
     $condition = "";
     $masks = [];
-    if($id != "all"){
-        $condition = " WHERE id='".$id."' ";
-    }else{
-        $condition = " WHERE type='mask' ";
-    }
-    $code;
+    $result;
     $handle = jocms_db_link();
-    $result = $handle->query("SELECT * FROM masks ".$condition." ORDER BY name");
+    if($id == "all"){
+        $result = $handle->query("SELECT * FROM masks WHERE type='mask' ORDER BY name");
+    }else{
+        $stmt = $handle->prepare("SELECT * FROM masks WHERE id=:id ORDER BY name");
+        $stmt->bindValue(':id', $id, SQLITE3_INTEGER);
+        $result = $stmt->execute();
+    }
     while($output = $result->fetchArray()){
         $masks[] = $output;
     }
@@ -287,7 +296,9 @@ function jo_get_masks($id){
 //output: -
 function jo_delete_mask($id){
     $handle = jocms_db_link();
-    $result = $handle->query("DELETE FROM masks WHERE id='".$id."'");
+    $stmt = $handle->prepare("DELETE FROM masks WHERE id=:id");
+    $stmt->bindValue(':id', $id, SQLITE3_INTEGER);
+    $result = $stmt->execute();
     return $result;
 }
 ?>
