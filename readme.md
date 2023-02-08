@@ -40,4 +40,4 @@ Check out the demo version at http://demo.jocms.net/jocms
 - Backup
 - Image upload
 - User management and settings
-- 9 languages availabl
+- 10 languages available

@@ -1,0 +1,12 @@
+{
+    "I_ACC":"Vytvořit účet",
+    "I_ACC_TEXT":"Nyní vytvořte nový administrátorský účet. Umožní vám měnit nastavení a přidávat další uživatele.",
+    "I_BACK":"Zpět",
+    "I_ERR_PHP":"jocms není kompatibilní s Vaší verzí PHP. Nejnižší podporovaná verze je 5.5.",
+    "I_ERR_SQL":"SQLite3 není dostupné.",
+    "I_NEXT":"Další",
+    "I_OK":"To je ono!",
+    "I_OK_TEXT":"<p>jocms je nyní nainstalován.</p><ul><li>Nyní prosím <b>odstraňte</b> adresář <code>/jocms/Installer</code>.</li><li>Už se můžete přihlásit a začít.</li><li>Pokud se Vám jocms líbí, prosím uveďte odkaz <code>jocms.rusciori.org</code> na své stránce ;)</li></ul>",
+    "I_WELC_TEXT":"<p>Tento instalátor Vás provede všemi potřebnými kroky pro zprovoznění jocms.</p><ul><li>Prosím <b>zálohujte si své soubory</b> než budete pokračovat, aby se nedošlo k nechtěným ztrátám!</li><li>jocms je stále v beta stádiu, takže může obsahovat chyby a zatím není kompletní. Byl bych moc rád, kdyby jste mi dali zpětnou vazbu.</li></ul>"
+  }
+  
